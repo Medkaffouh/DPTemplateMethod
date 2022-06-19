@@ -1,0 +1,14 @@
+Template Method:
+
+It's based on inheritance
+Defines skeleton of algorithm which can't be changed by sub classes. Only certain operations can be overridden in sub classes
+Parent class completely controls the algorithm and differs only certain steps to concrete classes
+Binding is done at compile time
+
+Strategy:
+
+It's based on delegation/composition
+It changes guts of the object by modifying method behaviour
+It's used to switch between family of algorithms
+It changes the behaviour of the object at run time by completely replacing one algorithm with other algorithm at run time
+Binding is done at run time
