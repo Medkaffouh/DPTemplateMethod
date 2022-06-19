@@ -1,4 +1,6 @@
-package template;
+import template.Template;
+import template.TemplateImpl1;
+import template.TemplateImpl2;
 
 public class Test {
     public static void main(String[] args) {
