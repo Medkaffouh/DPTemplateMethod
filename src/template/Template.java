@@ -13,5 +13,5 @@ public abstract class Template {
     }
 
     protected abstract int detail1(double input);
-    protected abstract int detail2(double x, double y, int param);
+    protected abstract double detail2(double x, double y, int param);
 }
